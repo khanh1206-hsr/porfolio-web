@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Document</title>
 
     <style>
-        body {
-            background-color: white;
-            font-family: Arial, Helvetica, sans-serif;
+        body
+        {
+            background: #F0F0F6;
+            font-family: 'Inter', sans-serif;
         }
-        .main-menu{
-            background-image:url("BackgroundImage.png");
+
+        .main-container
+        {
             position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .menu-text {
-           text-align: right;
+            width: 1440px;
+            height: 8063px;
+            margin: 0 auto;
         }
 
-        .mask{
-           color: gold;
-        }
-
-        p{
-            color: #767676;
-        }
-
-        .menu-text button{
-            border-radius: 5%;
-            border: none;
-            outline: 0;
-            color: var(--black,#2B2B2B);
-            background-color: #FFB400;
-        }
     </style>
 
 </head>
 <body>
-   <div class="main-menu">
-    <img src="YourImage1.png">
-       <div class="menu-text">
-         <h1>I'm Rayan Adlrdard <br><span class="mask">Front-end</span> Developer</br> </h1>
-         <p> <span calss="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</span></p>
-         <button>HIRE ME</button>
-       </div>
+    <div class="main-container">
+        <div class="left-menu">
+            <div class="profile-img"><img src="Profile.jpg" alt="profile picture"></div>
+            <div class="online"></div>
+            <div class="name">Rayan Adlardard</div>
+            <div class="nickname">Font-end Developer</div>
+            <div class="social-icon">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="title">I’m Rayan Adlrdard Front-end Developer </div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</div>
+            <div class="button1">
+                <span>HIRE ME</span>
+                <div class="arrow-icon"></div>
+            </div>
+
+            <div class="personal-img"></div>
+        </div>
+
     </div>
-   </div>
 </body>
 </html>
